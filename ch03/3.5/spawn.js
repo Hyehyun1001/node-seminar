@@ -1,4 +1,4 @@
-const spawn = require('child_process').spawn;
+import spawn from 'child_process';
 
 const process = spawn('python3', ['test.py']);
 

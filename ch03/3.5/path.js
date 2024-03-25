@@ -16,7 +16,7 @@ console.log('path.format():', path.format({
     name: 'path',
     ext: '.js',
 }));
-console.log('path.normalize():', path.normalize('C://users\\\\zerocho\\\path.js'));
+console.log('path.normalize():', path.normalize('C://users//zerocho//path.js'));
 console.log('------------------------------');
 console.log('path.isAbsolute(C:\\):', path.isAbsolute('C:\\'));
 console.log('path.isAbsolute(./home):', path.isAbsolute('./home'));
