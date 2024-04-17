@@ -11,7 +11,7 @@ const users = {}; // 데이터 저장용
 
 
 http.createServer(async (req, res) => {
-    try {
+    try {   // req.method로 HTTP 요청 메서드를 구분
         if (req.method === 'GET') {
             if (req.url === '/') {
                 const data = await fs.readFile(path.join(__dirname, 'restFront.html'));
